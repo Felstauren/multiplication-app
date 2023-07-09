@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;900&display=swap');
+
+
+
+
+/* media */
+
+@media (max-width: 1283px) {
+    .container {
+        margin-left: 10%;
+    }
+
+    #Score {
+        font-size: 12px;
+    }
+
+    #Question {
+        font-size: 15px;
+}
+
+
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    background-color: white;
+    height: 350px;
+    width: 600px;
+    border-radius: 5%;
+    position: relative;
+    margin-top: 20%;
+    margin-left: 35%;
+}
+
+
+
+/* score */
+
+.score {
+    margin-left: 80%;
+    margin-top: 5%;
+}
+
+#Score {
+    color:green;
+    font-weight:600;
+}
+
+
+/* Question */ 
+
+#Question {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+/* Answer */ 
+
+#answer {
+    border: 5px green solid;
+    height: 50px;
+    margin-left: 70px;
+    width: 460px;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+/* Submit */
+
+.submit {
+    border: 5px solid green;
+    margin-top: 15px;
+    text-align: center;
+    background-color: green;
+    margin-left: 12%;
+    margin-right: 9% ;
+    color: white;
+    font-size: 19px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#submit {
+    position: relative;
+    top: -20%;
+    letter-spacing: 5px;
+}
+
+.submit:hover{
+    cursor: pointer;
+    filter: brightness(90%);
+}
