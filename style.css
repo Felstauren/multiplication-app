@@ -2,26 +2,6 @@
 
 
 
-
-/* media */
-
-@media (max-width: 1283px) {
-    .container {
-        margin-left: 10%;
-    }
-
-    #Score {
-        font-size: 12px;
-    }
-
-    #Question {
-        font-size: 15px;
-}
-
-
-}
-
-
 body {
     font-family: 'Poppins', sans-serif;
     background-color: yellow;
