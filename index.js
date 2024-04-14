@@ -44,3 +44,9 @@ function updateLocalStrorage(){
    localStorage.setItem("score", score ); /* set new Key in Local Storage */
    score = localStorage.getItem("score"); /* change Score */
 }
+
+document.addEventListener("keypress", e => {
+   if(e.key === 'Enter'){
+      checkAnswer()
+   }
+})
